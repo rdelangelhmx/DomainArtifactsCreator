@@ -1,0 +1,19 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/DomainArtifactsCreator/v16
+/.vs/WCF_MVC_Creator/v15
+/bin/Debug
+/DAO/bin
+/DAO/obj
+/DAO/DAO.v12.suo
+/DAO/DAO.suo
+/obj/Debug
+/getService.sql
+/getModel.sql
+/getInterface.sql
+/getDTOCompleto.sql
+/getDTO.sql
+/getController.sql
+/DomainArtifactsCreator.v12.suo

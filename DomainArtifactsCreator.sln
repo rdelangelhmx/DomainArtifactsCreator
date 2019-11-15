@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainArtifactsCreator", "DomainArtifactsCreator.csproj", "{460EE3D9-F4AD-432C-96DB-D41FCC2F1BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{9FEC653D-919D-49D6-A603-E826F87FC504}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{B16A920C-E248-4454-B070-574AD571D9CF}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\getController.sql = scripts\getController.sql
+		scripts\getDTO.sql = scripts\getDTO.sql
+		scripts\getDTOCompleto.sql = scripts\getDTOCompleto.sql
+		scripts\getInterface.sql = scripts\getInterface.sql
+		scripts\getModel.sql = scripts\getModel.sql
+		scripts\getService.sql = scripts\getService.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{460EE3D9-F4AD-432C-96DB-D41FCC2F1BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460EE3D9-F4AD-432C-96DB-D41FCC2F1BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460EE3D9-F4AD-432C-96DB-D41FCC2F1BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460EE3D9-F4AD-432C-96DB-D41FCC2F1BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEC653D-919D-49D6-A603-E826F87FC504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEC653D-919D-49D6-A603-E826F87FC504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEC653D-919D-49D6-A603-E826F87FC504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEC653D-919D-49D6-A603-E826F87FC504}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

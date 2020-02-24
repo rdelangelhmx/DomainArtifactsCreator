@@ -2007,9 +2007,9 @@ namespace " + NameSpace + @".DataAccess.Repositories
                 </td>
 ";
                     validCampos += $@"
-            $(`#Input_{key}_${"{"}id{Campo}{"}"}`).removeClass('is-invalid');
-            if ($(`#Input_{key}_${"{"}id{Campo}{"}"}`).val() === '') {"{"}
-                $(`#Input_{key}_${"{"}id{Campo}{"}"}`).addClass('is-invalid');
+            $(`#Input_{key["Campo"]}_${"{"}id{Campo}{"}"}`).removeClass('is-invalid');
+            if ($(`#Input_{key["Campo"]}_${"{"}id{Campo}{"}"}`).val() === '') {"{"}
+                $(`#Input_{key["Campo"]}_${"{"}id{Campo}{"}"}`).addClass('is-invalid');
                 valid = false;
             {"}"}
 ";
@@ -2148,6 +2148,8 @@ $(function () {"{"}
 
 {hideCampos}
 
+                // Quitar la funcionalidad del boton Guardar
+                $(`#GroupSave_${"{"}{Campo}{"}"} .BtnSave`).unbind('click');
                 $(`#GroupEdit_${"{"}{Campo}{"}"}`).show();
                 $(`#GroupSave_${"{"}{Campo}{"}"}`).hide();
             {"}"});
